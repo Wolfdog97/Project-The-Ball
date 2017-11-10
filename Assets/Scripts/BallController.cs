@@ -8,7 +8,6 @@ public class BallController : MonoBehaviour {
     public float speed;
 
     private Rigidbody rb;
-    private int count;
 
     // Use this for initialization
     void Start () {

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ColorChanger : MonoBehaviour {
 
-    public bool isRed;
+    public bool isColored;
     public bool changesColor;
 
     public Material collidedMaterial;
@@ -14,6 +14,7 @@ public class ColorChanger : MonoBehaviour {
         if (changesColor == true)
         {
             GetComponent<Renderer>().material = collidedMaterial; //When this object collides with another object it changes its material
+            isColored = true;   
         }
     }
 }
