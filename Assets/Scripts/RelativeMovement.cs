@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof (CharacterController))]
 public class RelativeMovement : MonoBehaviour {
@@ -76,5 +77,15 @@ public class RelativeMovement : MonoBehaviour {
 
         movement *= Time.deltaTime;
         _characterController.Move(movement);
+
+        
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "Deathzone"){
+            Debug.Log("died");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                
+        }
     }
 }
