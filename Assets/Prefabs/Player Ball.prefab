@@ -124,11 +124,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  rotSpeed: 15
-  moveSpeed: 15.5
-  jumpSpeed: 25
+  rotSpeed: 10
+  moveSpeed: 14
+  jumpSpeed: 20
   gravity: -20
-  terminalVelocity: -35
+  terminalVelocity: -45
   minFall: -1.5
 --- !u!135 &135860214747225678
 SphereCollider:
