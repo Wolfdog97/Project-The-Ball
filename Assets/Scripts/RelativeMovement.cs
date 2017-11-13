@@ -83,9 +83,29 @@ public class RelativeMovement : MonoBehaviour {
     void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "Deathzone"){
-            Debug.Log("died");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-                
+            //Debug.Log("died");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);       
         }
+
+        if (other.gameObject.tag == "Game Starter")
+        {
+            SceneManager.LoadScene("The Pillers");
+            //Debug.Log("Changing scene");
+        }
+
+
+        if (other.gameObject.tag == "The Clock")
+        {
+            SceneManager.LoadScene("Clock");
+            //Debug.Log("Changing scene");
+        }
+
+        if (other.gameObject.tag == "Ender")
+        {
+            SceneManager.LoadScene("Lost");
+            //Debug.Log("Changing scene");
+        }
+
+
     }
 }

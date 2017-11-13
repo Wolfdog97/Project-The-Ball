@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Clock.unity
-    guid: 3d94f15c0d09ea942aaf869c7860638c
+  - enabled: 1
+    path: Assets/Scenes/Lost.unity
+    guid: a4970d18a10cbf44e906ffc01dff84b5
   - enabled: 1
     path: Assets/Scenes/The Pillers.unity
     guid: 68d131e393b8fc444bdb06055918873f
+  - enabled: 1
+    path: Assets/Scenes/Clock.unity
+    guid: 3d94f15c0d09ea942aaf869c7860638c
