@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114040271098386032}
   m_Layer: 0
   m_Name: Obelisk
-  m_TagString: Untagged
+  m_TagString: Level Changer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89,7 +89,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1633547031785640}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -107,4 +107,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isColored: 0
   changesColor: 1
-  collidedMaterial: {fileID: 2100000, guid: d07d34d8250a9d5428f4a0536a28263c, type: 2}
+  collidedMaterial: {fileID: 2100000, guid: b719a396b862c024a8076fc6169418f0, type: 2}

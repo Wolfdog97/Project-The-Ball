@@ -10,6 +10,7 @@ TagManager:
   - The Piller
   - Ender
   - The Clock
+  - Level Changer
   layers:
   - Default
   - TransparentFX

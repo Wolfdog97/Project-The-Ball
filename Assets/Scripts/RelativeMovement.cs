@@ -87,23 +87,10 @@ public class RelativeMovement : MonoBehaviour {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);       
         }
 
-        if (other.gameObject.tag == "Game Starter")
+        if (other.gameObject.tag == "Level Changer")
         {
-            SceneManager.LoadScene("The Pillers");
-            //Debug.Log("Changing scene");
-        }
-
-
-        if (other.gameObject.tag == "The Clock")
-        {
-            SceneManager.LoadScene("Clock");
-            //Debug.Log("Changing scene");
-        }
-
-        if (other.gameObject.tag == "Ender")
-        {
-            SceneManager.LoadScene("Lost");
-            //Debug.Log("Changing scene");
+            Debug.Log("changing scene");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
 

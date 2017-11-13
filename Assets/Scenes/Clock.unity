@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: d1385980456cd2044b282d73625457db, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -641,7 +641,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 93f2215e0512eef4eade6c82f1645c0b, type: 2}
     - target: {fileID: 1633547031785640, guid: 62f78a9d9154bdb4aa20cb5e640b13ba, type: 2}
       propertyPath: m_TagString
-      value: Ender
+      value: Level Changer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 62f78a9d9154bdb4aa20cb5e640b13ba, type: 2}
@@ -5767,15 +5767,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4202034581645094, guid: 2aae5b0d6c1d0cc42b52d8083e07899e, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4202034581645094, guid: 2aae5b0d6c1d0cc42b52d8083e07899e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 5.1
+      value: 3.4700012
       objectReference: {fileID: 0}
     - target: {fileID: 4202034581645094, guid: 2aae5b0d6c1d0cc42b52d8083e07899e, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -10.6
+      value: -6.49
       objectReference: {fileID: 0}
     - target: {fileID: 4202034581645094, guid: 2aae5b0d6c1d0cc42b52d8083e07899e, type: 2}
       propertyPath: m_LocalRotation.x
@@ -5783,11 +5783,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4202034581645094, guid: 2aae5b0d6c1d0cc42b52d8083e07899e, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4202034581645094, guid: 2aae5b0d6c1d0cc42b52d8083e07899e, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4202034581645094, guid: 2aae5b0d6c1d0cc42b52d8083e07899e, type: 2}
       propertyPath: m_LocalRotation.w
@@ -5830,6 +5830,14 @@ Prefab:
         type: 2}
       propertyPath: m_RenderingPath
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202034581645094, guid: 2aae5b0d6c1d0cc42b52d8083e07899e, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4202034581645094, guid: 2aae5b0d6c1d0cc42b52d8083e07899e, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114149439970434448, guid: 2aae5b0d6c1d0cc42b52d8083e07899e, type: 2}

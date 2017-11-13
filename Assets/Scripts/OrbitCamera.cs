@@ -24,12 +24,22 @@ public class OrbitCamera : MonoBehaviour {
 	
 	// Update is called once per frame
 	void LateUpdate () {
-        _rotY += Input.GetAxis("Mouse X") * rotSpeedX * 3;
-        _rotX += Input.GetAxis("Mouse Y") * rotSpeedY * 3;
+        float yIncrement = Input.GetAxis("Mouse X") * rotSpeedX * 3;
+        float xIncrement = Input.GetAxis("Mouse Y") * rotSpeedY * 3;
+        _rotY += yIncrement;
+        _rotX += xIncrement;
 
 
         Quaternion rotation = Quaternion.Euler(_rotX, _rotY, 0);
-        transform.position = target.position - (rotation * _offset);
+        Vector3 nextPosition = target.position - (rotation * _offset);
+        if (nextPosition.y < target.transform.position.y)
+        {
+            _rotX -= xIncrement;
+            rotation = Quaternion.Euler(_rotX, _rotY, 0);
+            nextPosition = target.position - (rotation * _offset);
+        }
+        float yCap = Mathf.Max(nextPosition.y, target.transform.position.y);
+        transform.position = new Vector3(nextPosition.x, yCap, nextPosition.z);
         transform.LookAt(target);
 	}
 }
