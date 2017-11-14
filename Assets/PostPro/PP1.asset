@@ -72,12 +72,12 @@ MonoBehaviour:
     m_Enabled: 1
     m_Settings:
       focusDistance: 10
-      aperture: 5.6
+      aperture: 32
       focalLength: 50
-      useCameraFov: 0
+      useCameraFov: 1
       kernelSize: 1
   motionBlur:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       shutterAngle: 47
       sampleCount: 4
@@ -102,12 +102,12 @@ MonoBehaviour:
       bloom:
         intensity: 0.03
         threshold: 1
-        softKnee: 0.297
-        radius: 1.86
+        softKnee: 0.436
+        radius: 2.25
         antiFlicker: 1
       lensDirt:
         texture: {fileID: 2800000, guid: 69e847bbff1cf5449a4ee0bbd045dbc9, type: 3}
-        intensity: 0.5
+        intensity: 0.84
   colorGrading:
     m_Enabled: 1
     m_Settings:

@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 234252520}
   - component: {fileID: 234252519}
   m_Layer: 5
-  m_Name: Credits
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.875, g: 0.875, b: 0.875, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -245,7 +245,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &459726849
 GameObject:
@@ -282,7 +282,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -149}
+  m_AnchoredPosition: {x: 0, y: -98}
   m_SizeDelta: {x: 141.4, y: 56.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &459726851
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
-  m_EffectDistance: {x: 0, y: -2}
+  m_EffectDistance: {x: 0, y: -0.76}
   m_UseGraphicAlpha: 1
 --- !u!114 &459726852
 MonoBehaviour:
@@ -384,6 +384,53 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 459726849}
+--- !u!1001 &686053495
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4439348585520450, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439348585520450, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 133.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439348585520450, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 49.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439348585520450, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439348585520450, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439348585520450, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439348585520450, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439348585520450, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114132612580046000, guid: 60c84be53aa65ad4fbd17a89f8067d4b,
+        type: 2}
+      propertyPath: sounds.Array.data[0].volume
+      value: 0.024
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 60c84be53aa65ad4fbd17a89f8067d4b, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &757188286
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,7 +520,7 @@ RectTransform:
   - {fileID: 1447533219}
   - {fileID: 459726850}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -540,7 +587,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1146522786
 GameObject:
@@ -629,7 +676,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1447533218
 GameObject:
@@ -642,7 +689,7 @@ GameObject:
   - component: {fileID: 1447533221}
   - component: {fileID: 1447533220}
   m_Layer: 5
-  m_Name: End
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -816,7 +863,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4242767049923344, guid: c075902f68487a24b89b0dc642162021, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c075902f68487a24b89b0dc642162021, type: 2}
